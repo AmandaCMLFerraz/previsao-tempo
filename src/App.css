@@ -1,6 +1,6 @@
 .container { 
     max-width: 1000px;
-    padding: 20px;
+    padding: 15px;
     margin: 0 auto;
     text-align: center;
 
@@ -16,7 +16,7 @@ h1 {
 }
 
 input {
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 10px;
     border-radius: 25px 0 0 25px;
     border: none;
@@ -26,21 +26,23 @@ input {
 }
 
 button {
-    background-color: #9FA3A6;
+    background-color: #D7D7D9;
     padding: 10px;
     border-radius: 0 25px 25px 0;
     border: none;
     width: 15%;
     max-width: 75px;
     cursor: pointer;
-    color: #fff;
+    color: #333;
+    font-weight: bold;
 }
 
 button:hover {
     background-color: #666A73;
+    color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     button {
         width: 30%;
     }

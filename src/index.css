@@ -12,3 +12,10 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
+@media (max-width: 900px) {
+
+  body { 
+    background: linear-gradient(to right, #212226, #212226);
+  }
+}
